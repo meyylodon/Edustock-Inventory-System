@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataBarang" msprop:Generator_RowEvHandlerName="DataBarangRowChangeEventHandler" msprop:Generator_RowDeletedName="DataBarangRowDeleted" msprop:Generator_RowDeletingName="DataBarangRowDeleting" msprop:Generator_RowEvArgName="DataBarangRowChangeEvent" msprop:Generator_TablePropName="DataBarang" msprop:Generator_RowChangedName="DataBarangRowChanged" msprop:Generator_UserTableName="DataBarang" msprop:Generator_RowChangingName="DataBarangRowChanging" msprop:Generator_RowClassName="DataBarangRow" msprop:Generator_TableClassName="DataBarangDataTable" msprop:Generator_TableVarName="tableDataBarang">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idBarang" msprop:Generator_ColumnPropNameInTable="idBarangColumn" msprop:Generator_ColumnPropNameInRow="idBarang" msprop:Generator_UserColumnName="idBarang" msprop:Generator_ColumnVarNameInTable="columnidBarang" type="xs:string" minOccurs="0" />
+              <xs:element name="namaBarang" msprop:Generator_ColumnPropNameInTable="namaBarangColumn" msprop:Generator_ColumnPropNameInRow="namaBarang" msprop:Generator_UserColumnName="namaBarang" msprop:Generator_ColumnVarNameInTable="columnnamaBarang" type="xs:string" minOccurs="0" />
+              <xs:element name="kategori" msprop:Generator_ColumnPropNameInTable="KategoriColumn" msprop:Generator_ColumnPropNameInRow="Kategori" msprop:Generator_UserColumnName="kategori" msprop:Generator_ColumnVarNameInTable="columnKategori" type="xs:string" minOccurs="0" />
+              <xs:element name="stok" msprop:Generator_ColumnPropNameInTable="StokColumn" msprop:Generator_ColumnPropNameInRow="Stok" msprop:Generator_UserColumnName="stok" msprop:Generator_ColumnVarNameInTable="columnStok" type="xs:string" minOccurs="0" />
+              <xs:element name="kondisi" msprop:Generator_ColumnPropNameInTable="KondisiColumn" msprop:Generator_ColumnPropNameInRow="Kondisi" msprop:Generator_UserColumnName="kondisi" msprop:Generator_ColumnVarNameInTable="columnKondisi" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Peminjaman" msprop:Generator_RowEvHandlerName="PeminjamanRowChangeEventHandler" msprop:Generator_RowDeletedName="PeminjamanRowDeleted" msprop:Generator_RowDeletingName="PeminjamanRowDeleting" msprop:Generator_RowEvArgName="PeminjamanRowChangeEvent" msprop:Generator_TablePropName="Peminjaman" msprop:Generator_RowChangedName="PeminjamanRowChanged" msprop:Generator_UserTableName="Peminjaman" msprop:Generator_RowChangingName="PeminjamanRowChanging" msprop:Generator_RowClassName="PeminjamanRow" msprop:Generator_TableClassName="PeminjamanDataTable" msprop:Generator_TableVarName="tablePeminjaman">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdPinjam" msprop:Generator_UserColumnName="IdPinjam" msprop:Generator_ColumnPropNameInTable="IdPinjamColumn" msprop:Generator_ColumnPropNameInRow="IdPinjam" msprop:Generator_ColumnVarNameInTable="columnIdPinjam" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_UserColumnName="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnVarNameInTable="columnstatus" type="xs:string" minOccurs="0" />
+              <xs:element name="nisn" msprop:Generator_UserColumnName="nisn" msprop:Generator_ColumnPropNameInTable="nisnColumn" msprop:Generator_ColumnPropNameInRow="nisn" msprop:Generator_ColumnVarNameInTable="columnnisn" type="xs:string" minOccurs="0" />
+              <xs:element name="nama" msprop:Generator_UserColumnName="nama" msprop:Generator_ColumnPropNameInTable="namaColumn" msprop:Generator_ColumnPropNameInRow="nama" msprop:Generator_ColumnVarNameInTable="columnnama" type="xs:string" minOccurs="0" />
+              <xs:element name="IdBarang" msprop:Generator_UserColumnName="IdBarang" msprop:Generator_ColumnPropNameInTable="IdBarangColumn" msprop:Generator_ColumnPropNameInRow="IdBarang" msprop:Generator_ColumnVarNameInTable="columnIdBarang" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaBarang" msprop:Generator_UserColumnName="NamaBarang" msprop:Generator_ColumnPropNameInTable="NamaBarangColumn" msprop:Generator_ColumnPropNameInRow="NamaBarang" msprop:Generator_ColumnVarNameInTable="columnNamaBarang" type="xs:string" minOccurs="0" />
+              <xs:element name="jumlahPinjam" msprop:Generator_UserColumnName="jumlahPinjam" msprop:Generator_ColumnPropNameInTable="jumlahPinjamColumn" msprop:Generator_ColumnPropNameInRow="jumlahPinjam" msprop:Generator_ColumnVarNameInTable="columnjumlahPinjam" type="xs:string" minOccurs="0" />
+              <xs:element name="TglPinjam" msprop:Generator_ColumnPropNameInRow="TglPinjam" msprop:Generator_ColumnPropNameInTable="TglPinjamColumn" msprop:Generator_ColumnVarNameInTable="columnTglPinjam" msprop:Generator_UserColumnName="TglPinjam" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
